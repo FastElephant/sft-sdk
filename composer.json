@@ -1,0 +1,37 @@
+{
+  "name": "fast-elephant/sft-sdk",
+  "description": "fast-elephant/sft-sdk",
+  "type": "library",
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": ">=6.0.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "FastElephant\\Sft\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FastElephant\\Sft\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "monkey",
+      "email": "blaserr93@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FastElephant\\Sft\\SftServiceProvider"
+      ]
+    }
+  }
+}
