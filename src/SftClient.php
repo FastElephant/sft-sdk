@@ -55,7 +55,7 @@ class SftClient
      */
     public function call(string $path, array $param = []): array
     {
-        $apiUrl = config('sft.url') . $path;
+        $apiUrl = config('sft.url') . str_replace('.', '/', $path);
 
         $param['biz_code'] = config('sft.biz_code');
         $param['version'] = config('sft.version');
