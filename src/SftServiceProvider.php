@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FastElephant\Printer;
+namespace FastElephant\Sft;
 
 use Illuminate\Support\ServiceProvider;
 
