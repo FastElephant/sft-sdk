@@ -1,6 +1,6 @@
 <?php
 
-namespace FastElephant\Printer;
+namespace FastElephant\Sft;
 
 use GuzzleHttp\Client as HttpClient;
 
